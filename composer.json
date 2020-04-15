@@ -1,0 +1,25 @@
+{
+    "name": "devdojo/calculator",
+    "description": "This demo package will do some calculations",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hamed sh",
+            "email": "megahamed22@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Devdojo\\Calculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devdojo\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
